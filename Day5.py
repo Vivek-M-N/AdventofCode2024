@@ -17,7 +17,7 @@ def check_page_list(pl):
         return True
     
 
-with open(r'D:\Stuff\AdventofCode2024\5.txt', 'r') as file:
+with open(r'5.txt', 'r') as file:
     content = file.read().split('*****\n')
 
 rules = content[0].split('\n')[:-2]
